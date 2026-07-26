@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://farohealth.com/trust-center
+url: https://farohealth.com/trust-center
+certifications:
+- SOC 2 Type II
+- ISO 27001:2022
+- ISO 9001:2015
+frameworks:
+- ISO 27002:2022
+- ISO 42001:2023
+- ISO 23894:2023
+- NIST SP 800-53 r5.1
+- NIST SP 800-37
+- NIST SP 800-61
+- NIST SP 600-1
+- EU AI Act
+- OWASP Top 10
+notes:
+- Customer data is logically segmented per customer at the database level.
+- Data at rest encrypted with FIPS 140-2 compliant AES-256; TLS 1.2+ in transit.
+- Automatic backups across multiple redundant datacenters.
+evidence:
+- source: https://farohealth.com/trust-center
+  keywords: [soc 2, iso 27001, iso 9001, iso 42001, trust center, owasp]

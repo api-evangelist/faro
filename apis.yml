@@ -1,7 +1,24 @@
 aid: faro
 name: Faro
-description: Faro is a company surfaced as a portfolio company of general-catalyst and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Faro Health is an AI platform for clinical development that helps biopharma
+  and clinical research teams design and execute better studies. Founded in 2019 and
+  headquartered in San Diego, California, Faro provides study design optimization, automated
+  protocol document authoring, and clinical workflow automation, digitizing and structuring
+  trial protocols so teams can accelerate development without compromising scientific
+  rigor, patient safety, or patient-centricity. Faro is backed by investors including
+  General Catalyst.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/yxsfedk7/production/185c5deae8cf9acd46e7b5bf68b8ff3ebe97f109-1200x630.png?w=1200&h=630&fit=max&auto=format
 url: https://raw.githubusercontent.com/api-evangelist/faro/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Clinical Development
+- Clinical Trials
+- Healthcare
+- Life Sciences
+- Artificial Intelligence
+- Biopharma
+- Protocol Authoring
+- Workflow Automation
 apis: []
+common:
+- type: Website
+  url: https://farohealth.com
+- type: Blog
+  url: https://farohealth.com/blog
+- type: PrivacyPolicy
+  url: https://farohealth.com/privacy-policy
+- type: TermsOfService
+  url: https://farohealth.com/terms-of-use
+- type: TrustCenter
+  url: https://farohealth.com/trust-center
+- type: Compliance
+  url: https://farohealth.com/trust-center
+- type: Security
+  url: https://farohealth.com/trust-center
+- type: VulnerabilityDisclosure
+  url: security/faro-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/faro-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
