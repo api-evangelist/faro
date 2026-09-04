@@ -29,6 +29,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://farohealth.com', status: 308, note: 'declared website redirects to https://faro.ai/ — a different registrable domain (farohealth.com -> faro.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://cdn.sanity.io/images/yxsfedk7/production/185c5deae8cf9acd46e7b5bf68b8ff3ebe97f109-1200x630.png?w=1200&h=630&fit=max&auto=format
 url: https://raw.githubusercontent.com/api-evangelist/faro/refs/heads/main/apis.yml
 x-type: company
