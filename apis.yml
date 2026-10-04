@@ -51,7 +51,7 @@ tags:
 - Artificial Intelligence
 - Biopharma
 - Protocol Authoring
-- Workflow-Automation
+- Workflow Automation
 tags_raw:
 - Company
 - Clinical Development
@@ -62,6 +62,7 @@ tags_raw:
 - Biopharma
 - Protocol Authoring
 - Workflow Automation
+- Workflow-Automation
 apis: []
 common:
 - type: Website
